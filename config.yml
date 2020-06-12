@@ -1,0 +1,18 @@
+title: Introduction to Finance
+description: >-
+  I will be learning the finance and stock market and creating price forcast
+  model. 
+template:
+  repo: introduction-to-finance-template
+  name: introduction-to-finance
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
